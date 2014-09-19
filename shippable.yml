@@ -1,0 +1,14 @@
+language: python
+
+build_environment: debian wheezy
+
+reset_minion: true
+
+python:
+  - 2.7
+
+before_script:
+  - cat /etc/debian_version
+
+notifications:
+    email: false
